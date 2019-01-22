@@ -1,0 +1,13 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "module": "src/index.js",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn scripts ncc build src/index.js --minify"
+  },
+  "devDependencies": {
+    "@tunnckocore/scripts": "^1.2.5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@zeit/ncc": "^0.11.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.10.6"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build": "lerna run build"
+  },
+  "name": "ncc-modules"
+}
