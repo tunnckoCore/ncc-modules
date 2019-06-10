@@ -8,7 +8,10 @@
     "foo": "^1.0.0"
   },
   "scripts": {
-    "build": "yarn scripts ncc build src/index.js --minify"
+    "prebuild": "rm -rf dist",
+    "build": "yarn build:tcc && yarn build:ncc",
+    "build:tcc": "yarn scripts tunnckocore-ncc build src/index.js --minify --out dist/tcc",
+    "build:ncc": "yarn scripts ncc build src/index.js --minify --out dist/ncc"
   },
   "devDependencies": {
     "@tunnckocore/scripts": "^1.2.5"
