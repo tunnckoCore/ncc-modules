@@ -828,10 +828,10 @@
     p-map-series "^1.0.0"
     split-cmd "^1.0.0"
 
-"@tunnckocore/ncc@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@tunnckocore/ncc/-/ncc-0.20.0.tgz#97ed19dc5306a30dab7f2495b517b4a94cecd541"
-  integrity sha512-cu5ajyvSWPiXyAcgl+FJ4JprpvB2tzMEdVQq3fsxW+I45LqkYtDZA4JFWmWvIKWKcs/fvjwBuLDlwnapGd+5NA==
+"@tunnckocore/ncc@^0.21.1":
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/@tunnckocore/ncc/-/ncc-0.21.1.tgz#e1e0dac758b950a8d24e9c81f1a7bc3f2cfd8a6e"
+  integrity sha512-k1odu+cEFCaix2kByXZtN9u0cT3LpFUwBTG5WBU7cIh6ER+hDCsgxTR5TjKuPXC+VXev+Im0bpUhD4wNkXHALg==
 
 "@tunnckocore/scripts@^1.2.5":
   version "1.2.5"
@@ -936,6 +936,11 @@ are-we-there-yet@~1.1.2:
   dependencies:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
+
+arg@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.0.tgz#583c518199419e0037abb74062c37f8519e575f0"
+  integrity sha512-ZWc51jO3qegGkVh8Hwpv636EkbesNV5ZNQPCtRa+0qytRYPEs9IYT9qITY9buezqUH5uqyzlWLcufrzU2rffdg==
 
 argparse@^1.0.7:
   version "1.0.10"

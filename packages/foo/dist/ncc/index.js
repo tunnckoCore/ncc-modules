@@ -1,0 +1,1 @@
+module.exports=function(r,e){"use strict";var t={};function __webpack_require__(e){if(t[e]){return t[e].exports}var u=t[e]={i:e,l:false,exports:{}};r[e].call(u.exports,u,u.exports,__webpack_require__);u.l=true;return u.exports}function startup(){return __webpack_require__(132)}return startup()}({132:function(r,e){e.FOO_PKG=4e3;e.qux=((r,e)=>{return r-e})}});
